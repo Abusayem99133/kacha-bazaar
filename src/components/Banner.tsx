@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { BannerSlide } from '@/types';
 import { cn } from '@/lib/utils';
-
+import banner3 from '../assets/pexels-sukrit-advertising-510852-31833143.jpg'
 const bannerData: BannerSlide[] = [
   {
     id: 1,
@@ -23,7 +23,7 @@ const bannerData: BannerSlide[] = [
   },
   {
     id: 3,
-    imageUrl: 'https://images.pexels.com/photos/4439544/pexels-photo-4439544.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    imageUrl: 'https://images.pexels.com/photos/31833143/pexels-photo-31833143/free-photo-of-fresh-ripe-avocado-halves-on-dark-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title: 'Fresh & Organic',
     description: 'Get the freshest organic vegetables and fruits delivered to your doorstep',
     buttonText: 'Shop Now',
